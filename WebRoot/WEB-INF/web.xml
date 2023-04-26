@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>设备访问接口</description>
+    <display-name>设备访问接口</display-name>
+    <servlet-name>DeviceVisit</servlet-name>
+    <servlet-class>com.push.demo.sevlet.DeviceVisitServerSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateCmd</servlet-name>
+    <servlet-class>com.push.demo.sevlet.CreateCmdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeviceServlet</servlet-name>
+    <servlet-class>com.push.demo.sevlet.DeviceInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CmdServlet</servlet-name>
+    <servlet-class>com.push.demo.sevlet.CmdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpServlet</servlet-name>
+    <servlet-class>com.push.demo.sevlet.EmpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TimeServlet</servlet-name>
+    <servlet-class>com.push.demo.sevlet.TimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AuthorityServlet</servlet-name>
+    <servlet-class>com.push.demo.sevlet.AuthorityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RealEvent</servlet-name>
+    <servlet-class>com.push.demo.sevlet.RealEvent</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DeviceVisit</servlet-name>
+    <url-pattern>/iclock/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCmd</servlet-name>
+    <url-pattern>/createCmd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeviceServlet</servlet-name>
+    <url-pattern>/deviceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CmdServlet</servlet-name>
+    <url-pattern>/cmdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpServlet</servlet-name>
+    <url-pattern>/empServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TimeServlet</servlet-name>
+    <url-pattern>/timeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthorityServlet</servlet-name>
+    <url-pattern>/authorityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RealEvent</servlet-name>
+    <url-pattern>/realEvent</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

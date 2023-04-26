@@ -1,0 +1,48 @@
+.search_input{  
+	background-color: #f3f5f0;
+    border: 1px solid #7ac143;
+    border-radius: 60px;
+    height: 30px;
+    padding: 2px 8px 0 3px;
+    width: 200px;
+}
+.search_button {
+	background:url(./image/search.png);
+}
+.text {font-size: 18px; color: #7AC143; font-family: "微软雅黑";}
+.form_text {font-family: "微软雅黑"}
+.table_head {font-size: 14px}
+
+
+.form_textfield{  
+	padding:2px 8px 0pt 3px;
+	width:600px;  
+	height:200px; 
+	border:1px solid #c3c2c2;
+	border-radius:3px;  
+	background-color:#f3f5f0;  
+} 
+
+.form_input{  
+	padding:2px 8px 0pt 3px;
+	width:300px;  
+	height:34px; 
+	border:1px solid #c3c2c2;
+	border-radius:3px;  
+	background-color:#f3f5f0;  
+} 
+.button { 
+    font-family: "Arail", "微软雅黑"; 
+    font-size: 12pt; color: #ffffff; 
+    border: 0px #93bee2 solid; 
+    background-image:url(<img src="./imege/button-常态.png" />); 
+    background-color: #7AC143; 
+	width:120px;
+	height:34px;
+	border-radius:3px;
+    CURSOR: hand; 
+    font-style: normal ; 
+} 
+.list_table td{
+	border-bottom: 1px solid black;
+}

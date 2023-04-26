@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="inbioPushDemo"
+  id="myeclipse.1417140986029"
+  context-root="/"
+  j2ee-spec="5.0"
+  archive="inbioPushDemo.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
